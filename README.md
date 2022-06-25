@@ -24,17 +24,17 @@ Service where students can add / save papers.
 - /regis
 - /login
 - /logout
-- /uploadfile - upload file 
-- /filedownload/(fileName) - download file based on filename
+- /uploadfile - upload paper 
+- /filedownload/(fileName) - download paper based on filename and username
 
 ## Department News Board
 Service that can be used to make news announcement. Certain News will be archived after 1 month has passed.
 - /regis
 - /login
 - /logout
-- /all_news - to see all unarchived news
+- /all_news - to see all unarchived news(news that created less than 1 month)
 - /all_news/(id) - to see news based on the news id
-- /post_news - post news
+- /post_news - add news
 - /update_news/(id) - edit news
 - /delete_news/(id) - delete news
 - /download/(id) - download news file by id

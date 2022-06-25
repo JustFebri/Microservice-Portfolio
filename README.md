@@ -1,5 +1,5 @@
 # Microservice-Portfolio
-For testing use localhost:8000
+For testing use localhost:8000/
 
 ## Simple Cloud Storage
 
